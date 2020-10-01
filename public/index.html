@@ -6,6 +6,7 @@
     <!-- displays site properly based on user's device -->
 
     <link href="./images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link crossorigin="" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"/>
 
     <link href="./css/style.min.css" rel="stylesheet"/>
@@ -28,38 +29,26 @@
       <div class="header">
         <div class="header__container">
           <h1 class="header__title">IP Address Tracker</h1>
-          <form class="form">
+          <form class="form" id="track-form">
             <div class="form__control">
-              <input class="form__input" placeholder="Search for any IP address or domain" type="text"/>
+              <input class="form__input" id="inputTrack" placeholder="Search for any IP address or domain" type="text"/>
               <input type="submit" value=">" class="form__submit" />
             </div>
           </form>
-          <div class="content">
-            <div class="content__col">
-              <h4 class="content__title">IP Address</h4>
-              <p class="content__description">192.212.174.101</p>
-            </div>
-            <div class="content__col">
-              <h4 class="content__title">Location</h4>
-              <p class="content__description">Brooklyn, NY 10001</p>
-            </div>
-            <div class="content__col">
-              <h4 class="content__title">Timezone</h4>
-              <p class="content__description">UTC-05:00</p>
-            </div>
-            <div class="content__col">
-              <h4 class="content__title">ISP</h4>
-              <p class="content__description">SpaceX StartLink</p>
-            </div>
-          </div>
+          <div class="content" id="geoContentResponse"></div>
         </div>
       </div>
-      <div class="map"></div>
+      <div class="map" id="showMap"></div>
     </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
       <a href="#">Your Name Here</a>.
     </div>
+    <script crossorigin="" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="../src/app/helpers.js"></script>
+    <script src="../src/app/GeoAPI.js"></script>
+    <script src="../src/app/UI.js"></script>
+    <script src="../src/app/main.js"></script>
   </body>
 </html>
