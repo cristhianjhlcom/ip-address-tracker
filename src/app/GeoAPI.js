@@ -12,7 +12,7 @@ class GeoAPI {
       const errorMessage = new UI();
       let inputIp = document.querySelector("#inputTrack");
       errorMessage.messageOfError(
-        "El parametro de búsqueda es incorrecto, por favor revisar."
+        "The search parameter is wrong, please check and try again."
       );
       inputIp.value = "";
       inputIp.focus();

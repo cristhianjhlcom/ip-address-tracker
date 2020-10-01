@@ -17,7 +17,7 @@ const newIpRequest = async (e) => {
 
   if (inputForm.value === "") {
     const errorMessage = new UI();
-    errorMessage.messageOfError("No puede dejar el campo vacio.");
+    errorMessage.messageOfError("You cannot leave the search field empty.");
   } else {
     const ui = new UI();
     const geoApi = new GeoAPI(KEY, inputForm.value);
