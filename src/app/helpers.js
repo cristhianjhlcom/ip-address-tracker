@@ -29,7 +29,7 @@ const newIpRequest = async (e) => {
 };
 
 const getClientIP = async () => {
-  const request = await fetch("http://ipinfo.io/?token=0568e2e77ac1ba");
+  const request = await fetch("https://ipinfo.io/?token=0568e2e77ac1ba");
   const response = await request.json();
   return response.ip;
 };
