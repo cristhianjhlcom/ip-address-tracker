@@ -30,7 +30,7 @@ body {
 .header {
   text-align: center;
   background-color: #4e58ba;
-  background-image: url(/public/images/pattern-bg.png);
+  background-image: url(/images/pattern-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -70,6 +70,7 @@ body {
     border: none;
     padding: 0.55rem 0.66rem;
     flex: 1;
+    cursor: pointer;
   }
   &__submit {
     background-color: #000;
@@ -77,6 +78,7 @@ body {
     border: none;
     border-radius: 0 0.55rem 0.55rem 0;
     padding: 0.55rem 0.88rem;
+    cursor: pointer;
   }
   @media screen and (min-width: 768px) {
     &__control {
