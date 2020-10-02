@@ -18,15 +18,8 @@ Utilizando esta aplicación deberias ser capaz de:
 - Cuando entre por primera vez, aparece la información de tu ubicación junto a un marcador en el mapa.
 - Puedes colocar cualquier dirección IP o dominio y la aplicación debe ser capáz de buscarlo y mostrarlo.
 
-Your users should be able to:
-
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See their own IP Address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
-
 ## Sigueme en mis redes sociales
 
-[Twitter](https://twitter.com/cristhian_jhl)
-[Facebook](https://facebook.com/cristhianjhlweb)
-[Instagram](https://twitter.com/cristhianjhl)
+- [Twitter](https://twitter.com/cristhian_jhl)
+- [Facebook](https://facebook.com/cristhianjhlweb)
+- [Instagram](https://twitter.com/cristhianjhl)
