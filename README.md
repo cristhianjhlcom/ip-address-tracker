@@ -12,6 +12,8 @@ Este reto lo consegui gracias a [Frontend Mentor](https://www.frontendmentor.io)
 
 El reto es crear una aplicación que rastre la locación según la dirección IP o dominio. Hay que maquetar la aplicación lo más parecido al diseño y podemos utilizar [IP Geolocation API by IPify](https://geo.ipify.org/). Para obtener la información de las ubicaciones, y para renderizar los mapas se usa [LeafletJS](https://leafletjs.com/).
 
+[Live Demo](https://priceless-spence-53a51b.netlify.app/)
+
 Utilizando esta aplicación deberias ser capaz de:
 
 - Ver la aplicación de manera optima sin importar el tipo de dispositvo que uses.
